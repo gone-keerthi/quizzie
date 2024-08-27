@@ -1,0 +1,70 @@
+.dashboard-component {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.dashboard-header {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  /* justify-content: center; */
+  align-items: center;
+  /* border: 2px solid violet; */
+}
+
+.dashboard-header-card {
+  color: #60b84b;
+  background: #ffffff;
+  width: 295px;
+  height: 145px;
+  left: 320px;
+  gap: 0px;
+  border-radius: 10px;
+  opacity: 0px;
+  text-align: center;
+}
+.dashboard-main-section{
+    /* border: 2px solid red; */
+}
+.dashboard-main-section-card-list{
+    display: grid;
+    height: 40dvh;
+    grid-template-columns: repeat(4, 1fr);
+    /* border: 2px solid blue; */
+    overflow-y: scroll;
+    gap: 2rem;
+}
+
+.dashboard-main-section-card-item{
+    /* border: 2px solid green; */
+    width: 200px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    gap: 0px;
+}
+
+.dashboard-main-section-card-item div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+
+}
+
+/* .dashboard-main-section-card-item div h4{
+    margin: 0;
+}
+
+.dashboard-main-section-card-item div p{
+    margin: 0;
+} */
+
+.dashboard-main-section-card-list{
+    /* border: 2px solid red; */
+    
+}
